@@ -1,0 +1,232 @@
+body {
+    background-image: url('images/background.jpg');
+    font-family: 'Xanh Mono', monospace;
+}
+
+.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* Navbar */
+.custom-nav {
+    background: rgb(195, 47, 35) !important;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.nav-link {
+    color: white !important;
+    position: relative;
+    top: 8%;
+    font-size: 18px !important;
+}
+
+.nav-link1 {
+    color: white !important;
+    position: relative;
+    top: 18%;
+}
+
+.nav-link1:hover {
+    color: rgb(87, 68, 114) !important;
+}
+
+.nav-link-hov:hover {
+    color: rgb(87, 68, 114);
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.phone-number {
+    font-size: 23px;
+    padding-left: 15px;
+}
+
+/* Section 1 */
+.section1 {
+    /* margin-top: -150px; */
+}
+
+.background {
+    background-image: url('images/section1-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 225px;
+    position: relative;
+    z-index: -10;
+    opacity: 0.9;
+}
+
+.sect1-content {
+    position: relative;
+    z-index: 10;
+    margin-top: -25%;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-shadow: 5px 4px rgb(195, 47, 35);
+    font-weight: 600;
+}
+
+.order-button {
+    padding: 8px 35px;
+    background: rgb(87, 68, 114);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid rgb(195, 47, 35);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    outline: none;
+}
+
+.order-button:hover {
+    background: white;
+    color: rgb(195, 47, 35);
+    border: 2px solid rgb(87, 68, 114);
+}
+
+
+/* Section 2 */
+.section2 {
+    background: rgb(87, 68, 114);
+    opacity: 0.9;
+    color: white;
+    padding: 20px 0px;
+    margin-top: 7.3%;
+}
+
+.our-menus {
+    letter-spacing: 2px;
+    font-size: 44px;
+    text-shadow: 4px 2px rgb(195, 47, 35);
+}
+
+.menu-item {
+    padding: 15px 30px;
+}
+
+.menu-title {
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.img-thumbnail2 {
+    padding: .25rem;
+    background-color: rgb(195, 47, 35);
+    border: 1px solid rgb(147, 37, 27);
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Section 3 */
+.section3 {
+    background: rgb(195, 47, 35);
+    color: white;
+    padding: 20px 0px;
+}
+
+.sect3-col1 {
+    padding: 0px 40px;
+}
+
+.chef {
+    border-bottom: 2px solid rgb(87, 68, 114);
+    margin-bottom: 15px;
+    text-shadow: 5px 3px rgb(87, 68, 114);
+}
+
+.chef-desc {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.icon-social {
+    font-size: 40px;
+    padding: 0px 15px 0px 0px;
+}
+
+.icon-social:hover {
+   color:rgb(126, 97, 168);
+   cursor: pointer;
+}
+
+.sect3-col2 {
+    padding: 0px 40px;
+}
+
+.reviews {
+    border-bottom: 2px solid rgb(87, 68, 114);
+    margin-bottom: 15px;
+    text-shadow: 5px 3px rgb(87, 68, 114);
+}
+
+.portrait {
+    border-radius: 75%;
+}
+
+.review-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.icon-star {
+    color: gold;
+}
+
+.review-date {
+    margin-top: -15px;
+    text-indent: 110px;
+}
+
+
+/* Section 4 */
+.section4 {
+    border-top: 4px solid rgb(87, 68, 114);
+    background: rgb(195, 47, 35);
+    color: white;
+    padding: 20px 0px;
+}
+
+.footer-text {
+    margin-top: 15px;
+}
+
+.copyright {
+    font-size: 17px;
+}
+
+.address {
+    font-size: 17px;
+}
+
+.policy {
+    font-size: 17px;
+}
+
+.policy-link {
+    font-size: 17px;
+    color: white;
+}
+
+.policy-link:hover {
+    color: rgb(87, 68, 114);
+    text-decoration: none;
+    outline: none;
+}
